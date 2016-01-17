@@ -1,0 +1,56 @@
+* {
+	font-family: 'Harriet Text', Georgia, Times, 'Times New Roman', serif;
+}
+body {
+	border-top: 10px solid black;
+	background: rgb(248, 247, 243);
+	padding: 0 16px 0 16px;
+}
+div.article {
+	padding:30px;
+	border-bottom: 2px solid rgb(220, 220, 220);
+}
+header.grantland-header {
+	text-align:center;
+	margin: 1.25em 0 .3em;
+	padding: .95em 0 .25em;
+	border-top: 1px solid #c3c0c0;
+	border-bottom: 2px solid rgb(170, 171, 169);
+}
+header.grantland-header::before {
+	content: ' ';
+    display: block;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background: #8d8c8c;
+    position: relative;
+    top: -22px;
+}
+p {
+	font-size: 16px;
+	font-family: article-font;
+	line-height: 24px;
+}
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	font-family: header-font;
+	padding-bottom: 20px;
+}
+@font-face {
+  font-family: 'article-font';
+  src: url('../fonts/font-2.woff') format('woff');
+}
+@font-face {
+  font-family: 'header-font';
+  src: url('../fonts/font-3.woff') format('woff');
+}
+@font-face {
+  font-family: 'font-1';
+  src: url('../fonts/font-1.woff') format('woff');
+}
+@font-face {
+  font-family: 'font-2';
+  src: url('../fonts/font-4.woff') format('woff');
+}

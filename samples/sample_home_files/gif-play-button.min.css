@@ -1,0 +1,14 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 3:42:39 Aug 19, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 2:00:50 Jan 15, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.gif-player{display:block;position:relative;background-color:rgba(0,0,0,.1);cursor:pointer;max-width:100%}.gif-player.gif-playing{cursor:default}.gif-player .gif-loading{height:24px;width:24px;border-radius:50%;border-width:3px;border-style:solid;border-color:#fad900 #fad900 #ddd #ddd;-webkit-animation:loadingIndicator .6s linear infinite;animation:loadingIndicator .6s linear infinite;display:block;position:absolute;top:50%;left:50%;margin:-12px 0 0 -12px;z-index:11}@-webkit-keyframes loadingIndicator{0%{-webkit-transform:rotateZ(0);transform:rotateZ(0)}100%{-webkit-transform:rotateZ(360deg);transform:rotateZ(360deg)}}@keyframes loadingIndicator{0%{-webkit-transform:rotateZ(0);transform:rotateZ(0)}100%{-webkit-transform:rotateZ(360deg);transform:rotateZ(360deg)}}.gif-player .gif-to-play{position:absolute;top:0;left:0;z-index:1}.gif-player img{float:none!important;margin:0!important;display:block;width:100%;height:auto}.gif-player .play-button{position:absolute;z-index:10;width:82px;height:82px;cursor:pointer;top:50%;left:50%;margin-left:-41px;margin-top:-41px;background-image:url(/web/20150819034239/https://s2.wp.com/wp-content/themes/vip/espn-plugins/gif-play-button/images/gif.png);background-repeat:no-repeat}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.gif-player .play-button{background-image:url(/web/20150819034239/https://s2.wp.com/wp-content/themes/vip/espn-plugins/gif-play-button/images/gif@2x.png);background-repeat:no-repeat;background-size:82px 82px;-webkit-background-size:82px 82px;-moz-background-size:82px 82px;-ms-background-size:82px 82px;-o-background-size:82px 82px}}

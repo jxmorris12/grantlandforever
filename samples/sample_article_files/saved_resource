@@ -1,0 +1,82 @@
+.modal {
+  display: none;
+  width: 400px;
+  background: #fff;
+  padding: 15px 30px;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -o-box-shadow: 0 0 10px #000;
+  -ms-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+}
+
+.modal-spinner {
+  display: none;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -32px;
+  margin-top: -32px;
+  background: url(/wp-content/themes/vip/espn-grantland/css/vendor/spinner.gif) #111 no-repeat center center;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}/**
+ * Add text colors to the playlist shortcode light color scheme.
+ * 
+ * Core ticket: https://core.trac.wordpress.org/ticket/27562
+ */
+
+.wp-playlist-light {
+	color: #000;
+}
+
+.wp-playlist-light .wp-playlist-item {
+	color: #333;
+}
+
+.wp-playlist-light .wp-playlist-playing {
+	background: #fff;
+	color: #000;
+}
+
+.wp-playlist-dark .wp-playlist-item .wp-playlist-caption {
+	color: #fff;
+}
+
+.wp-playlist-caption {
+	display: block;
+}/**
+ * MP6 hacks, CSS that's either WPCOM specific or otherwise not suitably for MP6 proper
+ */
+
+/* Invert stats sparkline on light theme */
+body.admin-color-mp6-light li#wp-admin-bar-stats img {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+
+/* Fix dashicons priority so Japanese users can use the toolbar. Should long term be fixed in whatever plugin that forces all fonts to be Arial */
+i.mce-i-bold, i.mce-i-italic, i.mce-i-bullist, i.mce-i-numlist, i.mce-i-blockquote, i.mce-i-alignleft, i.mce-i-aligncenter, i.mce-i-alignright, i.mce-i-link, i.mce-i-unlink, i.mce-i-wp_more, i.mce-i-strikethrough, i.mce-i-spellchecker, i.mce-i-fullscreen, i.mce-i-wp_fullscreen, i.mce-i-wp_adv, i.mce-i-underline, i.mce-i-alignjustify, i.mce-i-forecolor, i.mce-i-pastetext, i.mce-i-pasteword, i.mce-i-removeformat, i.mce-i-charmap, i.mce-i-outdent, i.mce-i-indent, i.mce-i-undo, i.mce-i-redo, i.mce-i-help, i.mce-i-wp_help, i.mce-i-wp-media-library, i.mce-i-ltr, i.mce-i-wp_page, .mce-close {
+	font: normal 20px/1 'dashicons' !important;
+}
+
+.dashicons, .dashicons-before:before {
+	font-family: 'dashicons' !important;
+}
+
+.noticon {
+	font-family: "Noticons" !important;
+}.bbp-staff-role {
+	color: #f1831e;
+}
+
+.bbp-a8c-reply {
+	background: #e9eff3 !important;
+	border: 1px solid #c8d7e1;
+	width: 98% !important;
+}.gif-player{display:inline-block;position:relative;background-color:rgba(0,0,0,.1);cursor:pointer;max-width:100%}.gif-player.gif-playing{cursor:default}.gif-player .gif-loading{height:24px;width:24px;border-radius:50%;border-width:3px;border-style:solid;border-color:#fad900 #fad900 #ddd #ddd;-webkit-animation:loadingIndicator .6s linear infinite;animation:loadingIndicator .6s linear infinite;display:block;position:absolute;top:50%;left:50%;margin:-12px 0 0 -12px;z-index:11}@-webkit-keyframes loadingIndicator{0%{-webkit-transform:rotateZ(0);transform:rotateZ(0)}100%{-webkit-transform:rotateZ(360deg);transform:rotateZ(360deg)}}@keyframes loadingIndicator{0%{-webkit-transform:rotateZ(0);transform:rotateZ(0)}100%{-webkit-transform:rotateZ(360deg);transform:rotateZ(360deg)}}.gif-player .gif-to-play{position:absolute;top:0;left:0;z-index:1}.gif-player img{float:none!important;margin:0!important;display:inline-block}.gif-player .play-button{position:absolute;z-index:10;width:82px;height:82px;cursor:pointer;top:50%;left:50%;margin-left:-41px;margin-top:-41px;background-image:url(/wp-content/themes/vip/espn-plugins/gif-play-button/images/gif.png);background-repeat:no-repeat}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.gif-player .play-button{background-image:url(/wp-content/themes/vip/espn-plugins/gif-play-button/images/gif@2x.png);background-repeat:no-repeat;background-size:82px 82px;-webkit-background-size:82px 82px;-moz-background-size:82px 82px;-ms-background-size:82px 82px;-o-background-size:82px 82px}}

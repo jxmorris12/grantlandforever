@@ -1,0 +1,89 @@
+JONAH KERI GQ
+https://www.kimonolabs.com/api/rss/8zfb76yy?apikey=E0Us8TQZ0ybVxD3ZIW7fJbbmJ6ftaRYt
+ 
+KLOSTERMAN GQ
+https://www.kimonolabs.com/api/rss/2wpyubp6?apikey=E0Us8TQZ0ybVxD3ZIW7fJbbmJ6ftaRYt
+ 
+REMBERT BROWNE NYMAG
+https://www.kimonolabs.com/api/rss/8yt9dh9g?apikey=E0Us8TQZ0ybVxD3ZIW7fJbbmJ6ftaRYt
+ 
+GOLDSBERRY 538
+http://fivethirtyeight.com/contributors/kirk-goldsberry/feed/
+ 
+LOWE ESPN
+http://search.espn.go.com/rss/zach-lowe/
+ 
+BARNWELL ESPN
+http://search.espn.go.com/rss/barnwell/
+ 
+MAYS MMQB
+https://www.kimonolabs.com/api/rss/bbhi0gne?apikey=E0Us8TQZ0ybVxD3ZIW7fJbbmJ6ftaRYt
+ 
+AMOS BARSHAD FADER
+https://www.kimonolabs.com/api/rss/3vacrugg?apikey=E0Us8TQZ0ybVxD3ZIW7fJbbmJ6ftaRYt
+ 
+WESLEY MORRIS NYT
+https://www.kimonolabs.com/api/rss/663vw8ww?apikey=NOE6sXkyCQ0Vu5rdFQo29CHmyW5JlpfT
+ 
+SEAN MCINDOE (PERSONAL)
+http://feeds.feedburner.com/DownGoesBrown
+ 
+Bill Barnwell (Medium)
+http://feeds.feedburner.com/BillBarnwellOnMedium
+ 
+Sean McIndoe (ESPN)
+http://search.espn.go.com/rss/sean-mcindoe/
+ 
+Bill Simmons Podcast
+http://feeds.feedburner.com/TheBillSimmonsPodcast
+ 
+Channel 33
+http://feeds.feedburner.com/Channel33
+ 
+Michael Baumann
+http://crashburnalley.com/author/atomicruckus/feed/
+ 
+Chris B. Brown
+http://feeds.feedburner.com/smartfootball/dCPK
+ 
+Jordan Ritter Conn
+http://search.espn.go.com/rss/jordan-ritter-conn
+ 
+Chris Connelly
+http://search.espn.go.com/rss/chris-connelly
+ 
+Jason Gallagher
+http://ballerball.com/author/jasebook/feed/
+ 
+David Jacoby
+http://search.espn.go.com/rss/david-jacoby
+ 
+Rany Jazayerli
+http://www.ranyontheroyals.com/feeds/posts/default?alt=rss
+ 
+Christina Kahrl
+http://search.espn.go.com/rss/christina-kahrl
+ 
+Ben Lindbergh
+http://search.espn.go.com/rss/ben-lindbergh
+ 
+David Shoemaker
+http://search.espn.go.com/rss/david-shoemaker
+ 
+Mike L Goodman
+http://search.espn.go.com/rss/mike-l-goodman
+ 
+Mike Goodman
+http://search.espn.go.com/rss/mike-goodman
+ 
+Graham Parker
+http://www.theguardian.com/profile/graham-parker/rss
+ 
+Charles P. Pierce
+https://www.kimonolabs.com/api/rss/ca9r3d2e?apikey=y5DDQ5hrEDtsYwhgh3rgmXycWorfQhjy
+ 
+John Lopez
+https://www.kimonolabs.com/api/rss/8bt3mv2o?apikey=y5DDQ5hrEDtsYwhgh3rgmXycWorfQhjy
+ 
+Dave Schilling
+http://www.theguardian.com/profile/dave-schilling/rss

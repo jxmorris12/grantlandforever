@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="app">
+ 
+<head>
+    <!-- icons -->
+    <link rel="mask-icon" color="black" href="https://s0.wp.com/wp-content/themes/vip/espn-grantland/img/grantland-g.svg">
+    <link rel="shortcut icon" href="https://s0.wp.com/wp-content/themes/vip/espn-grantland/img/favicon.ico"/>
+    <link rel="apple-touch-icon" href="https://s0.wp.com/wp-content/themes/vip/espn-grantland/img/apple-touch-icon.png"/>
+    <!-- Title -->
+    <title>Grantland Forever</title>
+    <!-- css reset -->
+    <link href="../style/reset.css" rel="stylesheet"/>
+     <!-- my styles -->
+    <link href="../style/grantland.css" rel="stylesheet"/>
+    <!-- default scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"> </script>
+    <script type="text/javascript" src="../bower_components/angular/angular.js"> </script>
+    <script type="text/javascript" src="../bower_components/angular-route/angular-route.js"> </script>
+    <script type="text/javascript" src="../bower_components/x2js/xml2json.js"> </script>
+    <script type="text/javascript" src="../bower_components/angular-sanitize/angular-sanitize.js"> </script>
+    <!-- my scripts -->
+    <script type="text/javascript" src="app.js"> </script>
+ 
+</head>
+ 
+<body ng-controller="MainController" class="home page">
+    <div>
+        <header class="grantland-header">
+                <img src="https://s0.wp.com/wp-content/themes/vip/espn-grantland/img/grantland-logo@2x.png " alt="" width="445" height="55" scale="2">
+        </header>
+    </div>
+    <div ng-repeat="entry in entries" class="article">
+        <h2 ng-bind-html="entry.title"></h2>
+        <p ng-bind-html="entry.text"></p><p>s... <a ng-href="{{entry.link}}">continue reading</a></p>
+    </div>
+</body>
+</html>
