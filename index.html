@@ -10,17 +10,17 @@
     <!-- Title -->
     <title>Grantland Forever</title>
     <!-- css reset -->
-    <link href="../style/reset.css" rel="stylesheet"/>
+    <link href="style/reset.css" rel="stylesheet"/>
      <!-- my styles -->
-    <link href="../style/grantland.css" rel="stylesheet"/>
+    <link href="style/grantland.css" rel="stylesheet"/>
     <!-- default scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"> </script>
-    <script type="text/javascript" src="../bower_components/angular/angular.js"> </script>
-    <script type="text/javascript" src="../bower_components/angular-route/angular-route.js"> </script>
-    <script type="text/javascript" src="../bower_components/x2js/xml2json.js"> </script>
-    <script type="text/javascript" src="../bower_components/angular-sanitize/angular-sanitize.js"> </script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"> </script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"> </script>
+    <script type="text/javascript" src="bower_components/x2js/xml2json.js"> </script>
+    <script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.js"> </script>
     <!-- my scripts -->
-    <script type="text/javascript" src="app.js"> </script>
+    <script type="text/javascript" src="assets/app.js"> </script>
  
 </head>
  
@@ -32,7 +32,7 @@
     </div>
     <div ng-repeat="entry in entries" class="article">
         <h2 ng-bind-html="entry.title"></h2>
-        <p ng-bind-html="entry.text"></p><p>s... <a ng-href="{{entry.link}}">continue reading</a></p>
+        <p ng-bind-html="entry.text"></p><p>... <a ng-href="{{entry.link}}">continue reading</a></p>
     </div>
 </body>
 </html>

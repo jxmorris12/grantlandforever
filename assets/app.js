@@ -29,6 +29,7 @@ var app = angular.module('app', ['ngRoute','ngSanitize'])
 	 			title: entry.title.toString(),
 	 			updated: entry.updated
 	 		});
+	 		console.log(entry);
 	 	}
 	 };
 
